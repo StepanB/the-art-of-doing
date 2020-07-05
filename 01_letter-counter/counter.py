@@ -14,5 +14,9 @@ message = input("\nPlease enter a message: ")
 # prompt for letter to count
 letter = input("Which letter would you like to count the occurrences of: ")
 
+# standardize strings
+message = message.lower()
+letter = letter.lower()
+
 # print counter
 print(f"\n{name.title()}, your message has {message.count(letter)} {letter}'s in it.")
