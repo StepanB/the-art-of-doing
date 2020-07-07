@@ -31,8 +31,8 @@ print(f"Your favorite teachers alphabetically are: {sorted(teachers)}")
 print(f"Your favorite teachers reverse alphabetically order are: {sorted(teachers, reverse=True)}")
 
 # print teachers by two, the last one and number of them
-print(f"\nYour top two teachers are: {teachers[0]} {teachers[1]}.")
-print(f"Your next two teachers are: {teachers[2]} {teachers[3]}.")
+print(f"\nYour top two teachers are: {teachers[0]} and {teachers[1]}.")
+print(f"Your next two teachers are: {teachers[2]} and {teachers[3]}.")
 print(f"Your last favorite teacher is: {teachers[-1]}.")
 print(f"You have a total of {len(teachers)} favorite teachers.")
 
