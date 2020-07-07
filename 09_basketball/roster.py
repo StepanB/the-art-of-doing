@@ -15,7 +15,7 @@ print(f"\t\tPoint Guard:\t\t{roster[0]}")
 print(f"\t\tShooting Guard:\t\t{roster[1]}")
 print(f"\t\tSmall Forward:\t\t{roster[2]}")
 print(f"\t\tPower Forward:\t\t{roster[3]}")
-print(f"\t\tCenter:\t\t\t{roster[4]}")
+print(f"\t\tCenter:\t\t\t\t{roster[4]}")
 
 # print info about injury and get new player
 print(f"\nOh no. {roster[2]} is injured.")
@@ -28,8 +28,8 @@ print(f"\t\tPoint Guard:\t\t{roster[0]}")
 print(f"\t\tShooting Guard:\t\t{roster[1]}")
 print(f"\t\tSmall Forward:\t\t{roster[2]}")
 print(f"\t\tPower Forward:\t\t{roster[3]}")
-print(f"\t\tCenter:\t\t\t{roster[4]}")
+print(f"\t\tCenter:\t\t\t\t{roster[4]}")
 
 # print final messages
-print(f"Good luck {roster[2]} you will do great!")
+print(f"\nGood luck {roster[2]} you will do great!")
 print(f"Your roster now has {len(roster)} players.")
